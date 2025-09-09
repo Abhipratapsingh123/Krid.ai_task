@@ -1,10 +1,3 @@
-#  Task Updater
-
-This project is an **AI-powered task manager** that helps you create, update, list, and manage tasks through natural conversations.  
-It uses **LangChain + Google Gemini** for AI reasoning and integrates with a **SQLite database** to store tasks and conversations.
-
----
-
 ##  Features
 - Add new tasks with title, assignee, and due date.  
 - Update task status (e.g., OPEN, DONE, INPR).  
@@ -14,15 +7,23 @@ It uses **LangChain + Google Gemini** for AI reasoning and integrates with a **S
 
 ---
 
-##  Project Structure
-Task_updater/
-│── demo.py # Main chat interface
-│── db.py # Handles SQLite database (tasks, conversations, messages)
-│── tools.py # Tools for adding, updating, listing, deleting tasks
-│── agent.py # LangChain agent setup
-│── chat_tasks.db # SQLite database file
-│── .env # API keys and environment variables
-│── README.md # Project Working
+**File Explanations:**
+
+- **demo.py**:  
+  This is the main entry point of the application. Running this file launches the interactive Command line interface where users can manage their tasks via natural language.
+
+- **db.py**:  
+  Contains all the functions to **interact with the SQLite database**, including creating tables, inserting new tasks,deleting conversations, updating task status, and retrieving task list.
+
+- **tools.py**:  
+  Implements the **task management tools** that the AI agent uses to execute user commands, such as adding new tasks, listing current tasks, updating the tasks.
+
+- **agent.py**:  
+  Sets up the **LangChain AI agent**, defines how it interprets user instructions, and connects it to the task management tools.
+
+- **chat_tasks.db**:  
+  SQLite database file where all **tasks, messages, and conversation history** are stored .
+
 
 
 ##  Example Commands
