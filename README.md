@@ -1,6 +1,6 @@
 ##  Features
 - Add new tasks with title, assignee, and due date.  
-- Update task status (e.g., OPEN, DONE, INPR).  
+- Update task status (e.g., OPEN, DONE, INPR(In progress)).  
 - List all tasks in a conversation.  
 - Delete entire conversations along with their tasks & messages.  
 - Simple chat interface where the assistant understands natural language commands.
