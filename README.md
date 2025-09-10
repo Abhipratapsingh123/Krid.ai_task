@@ -26,9 +26,10 @@
 
 
 
-##  Example Commands
-- `You: Add a task "Prepare project report" for Aditya due on 2025-09-15`  
-- `Employer: Please create a task to review code assigned to Lakshay.`  
-- `You: Mark the first task as DONE.`  
+##  Example Commands  
+- `Employer: Abhi,you have to submit the assignment by Monday`  
+- `Employer: Abhi,you also have to submit the PPt by Friday`  
+- `You: I have completed the assignment work.`  
+- `You: I have also completed the PPt work.`  
 - `Employer: Show me all tasks.`  
-- `You: Delete this conversation.`  
+  
